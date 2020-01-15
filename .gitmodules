@@ -1,0 +1,6 @@
+[submodule "BackEnd"]
+	path = BackEnd
+	url = git@github.com:prefeiturasp/SME-PortalUniforme-BackEnd.git
+[submodule "FrontEnd"]
+	path = FrontEnd
+	url = git@github.com:prefeiturasp/SME-PortalUniforme-FrontEnd.git
