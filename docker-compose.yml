@@ -1,0 +1,78 @@
+version: "3.1"
+services:
+  nginx:
+    container_name: uniformes-nginx
+    build: .
+    image: nginx:uniformes-proxy
+    ports:
+      - 80:80
+    depends_on:
+      - api
+      - frontend
+    env_file: .env
+    volumes:
+      - ./django_static:/django_static
+
+  frontend:
+    container_name: uniformes-frontend
+    image: coad/uniformes-frontend
+    # build: ./frontend/.
+    env_file: .env
+    depends_on:
+      - db
+      - api
+  db:
+    container_name: uniformes-db
+    image: postgres:11.2-alpine
+    restart: always
+    env_file: .env
+    volumes:
+      - ../uniformes-postgres-data:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+
+  api:
+    container_name: uniformes-api
+    # build: ./backend/.
+    image: coad/uniformes-api
+    command: "gunicorn config.wsgi:application --bind=0.0.0.0:8000 -w 8"
+    env_file: .env
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+      - redis
+    volumes:
+      - ./django_media:/code/sme_uniforme_apps/media
+      - ./django_static:/code/staticfiles
+
+  celery:
+    container_name: uniformes-celery
+    restart: always
+    image: coad/uniformes-api
+    command: "celery -A config worker --loglevel=info --concurrency=3 -n worker1@%h"
+    env_file: .env
+    depends_on:
+      - redis
+
+  # beat:
+  #   container_name: uniformes-clery-beat
+  #   restart: always
+  #   image: coad2019/uniformes-backend
+  #   command: "celery  -A config beat --loglevel=info"
+  #   env_file: .env
+#    volumes:
+#      - ./beatLogs.log:/code/terceirizadas.log
+    # depends_on:
+    #   - redis
+
+  redis:
+    container_name: uniformes-redis
+    image: redis:5.0.0-alpine
+    ports:
+      - "6379:6379"
+
+networks:
+  default:
+    external:
+      name: uniformes-network
