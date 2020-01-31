@@ -7,7 +7,7 @@ services:
     env_file: .env
     depends_on:
       - db_uniformes
-      - api_uniforme
+      - api_uniformes
 
   db_uniformes:
     container_name: database
@@ -19,7 +19,7 @@ services:
     ports:
       - 5433:5432
 
-  api_uniforme:
+  api_uniformes:
     container_name: uniformes-backend
     image: coad2019/uniformes-api
     command: "gunicorn config.wsgi:application --bind=0.0.0.0:8001 -w 8"
@@ -30,8 +30,8 @@ services:
       - db_uniformes
       - redis_uniformes
     volumes:
-      - ../Proxy/django_media_uniformes:/code/sme_uniforme_apps/media
-      - ../Proxy/django_static_uniformes:/code/staticfiles
+      - ../SME-Proxy/django_media_uniformes:/code/sme_uniforme_apps/media
+      - ../SME-Proxy/django_static_uniformes:/code/staticfiles
 
   celery_uniformes:
     container_name: celery_uniformes
