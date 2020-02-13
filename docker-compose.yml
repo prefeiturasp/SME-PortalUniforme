@@ -10,7 +10,7 @@ services:
       - api_uniformes
 
   db_uniformes:
-    container_name: database
+    container_name: db_uniformes
     image: postgres:11.2-alpine
     restart: always
     env_file: .env
