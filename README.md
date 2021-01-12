@@ -123,23 +123,49 @@ As jornadas de fornecedores e famílias podem ser visualizados [aqui](https://wh
 
 # [](https://github.com/prefeiturasp/SME/blob/master/docs/TemplateREADME.md#sobre-o-time)Sobre o Time:
 
-| Papel | Titular | Suplente
- 
-|--|--|--|
- 
-| Product Owner | @Natalia-Goes | @RenataGarrido | @thaisbrianezi |
- 
-| Agente de Governança | @Fernando | @Victor |
- 
-| Gerente de Projeto | @Aline |
- 
-| Scrum Master | @Marcos |
- 
-| Analista UX/UI | @Igor | 
- 
-| Analista de Negócios | @Fabricio | @ |
- 
-| Analista Programador | @alcfernandes, @anderson89marques @CalvinRossinhole, @kelwys, @ollyvergithub | 
+## Sobre o Time:
+
+<table>
+<thead>
+<tr>
+<th>Papel</th>
+<th>Titular</th>
+<th>Suplente</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Product Owner</td>
+<td>@Natalia-Goes e @RenataGarrido</td>
+<td>@thaisbrianezi</td>
+</tr>
+<tr>
+<td>Agente de Governança</td>
+<td>Fernando Gonsales</td>
+<td>Victor</td>
+</tr>
+<tr>
+<td>Gerente de Projeto</td>
+<td> Aline Freitas</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Scrum Master</td>
+<td>Augusto Silva</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Analista UX/UI</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Analista Programador</td>
+<td>@alcfernandes, @anderson89marques @CalvinRossinhole, @kelwys, @ollyvergithub</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
  
 # [](https://github.com/prefeiturasp/SME/blob/master/docs/TemplateREADME.md#como-surgiu)Como surgiu
  
@@ -191,10 +217,8 @@ Testes técnicos foram realizados e melhorias foram identificadas ao longo dos u
  
 [https://portaldeuniformes.sme.prefeitura.sp.gov.br/](https://portaldeuniformes.sme.prefeitura.sp.gov.br/)
  
-## [](https://github.com/prefeiturasp/SME/blob/master/docs/TemplateREADME.md#comunica%C3%A7%C3%A3o)Comunicação:
- 
-# Canal de comunicação
- 
+# [](https://github.com/prefeiturasp/SME/blob/master/docs/TemplateREADME.md#comunica%C3%A7%C3%A3o)Comunicação:
+  
 | Canal de comunicação | Objetivos |
 |----------------------|-----------|
 | [Issues do Github](https://github.com/prefeiturasp/SME-PortalUniforme/issues) | - Sugestão de novas funcionalidades<br> - Reportar bugs<br> - Discussões técnicas |
