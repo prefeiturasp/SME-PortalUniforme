@@ -74,16 +74,14 @@ O Portal do Uniforme é um portal no qual a família pode se informar sobre a co
  
 ## Personas
  
-**Quem:** estudantes e famílias 
+**Quem:** estudantes e famílias.
+**Necessidades:** receber recursos para aquisição dos uniformes e encontrar facilmente os vendedores credenciados pela SME e encontrar vendedores próximos de suas casas ou trabalhos, entender como funciona o novo modelo de compra descentralizada do uniforme escolar.
 
-**Necessidades:** receber recursos para aquisição dos uniformes e encontrar facilmente os vendedores credenciados pela SME e encontrar vendedores próximos de suas casas ou trabalhos, entender como funciona o novo modelo de compra descentralizada do uniforme escolar
-
-**Quem:** fabricantes e fornecedores  
-
-**Necessidades:** aumentar o volume de vendas de produtos e entendem que a venda em escala governamental, mas com a garantia de pagamento dos itens vendidos e divulgação do estabelecimento para ampliar o público de sua loja é valiosa
+**Quem:** fabricantes e fornecedores.
+**Necessidades:** aumentar o volume de vendas de produtos e entendem que a venda em escala governamental, mas com a garantia de pagamento dos itens vendidos e divulgação do estabelecimento para ampliar o público de sua loja é valiosa.
  
-**Quem:** servidores da SME
-**Necessidades:** acompanhar, apoiar e validar o processo de cadastramento dos fornecedores e ter acesso à dados exibidos em gráficos simples e intuitivos, possibilidade de apoio às escolas e aos fornecedores
+**Quem:** servidores da SME.
+**Necessidades:** acompanhar, apoiar e validar o processo de cadastramento dos fornecedores e ter acesso à dados exibidos em gráficos simples e intuitivos, possibilidade de apoio às escolas e aos fornecedores.
  
 ## Funcionalidades
   
