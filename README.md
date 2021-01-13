@@ -88,9 +88,7 @@ O Portal do Uniforme é um portal no qual a família pode se informar sobre a co
 ## Funcionalidades
   
 - Formulário de cadastro do fornecedor de uniforme escolar
-  
-- Área administrativa da DRE
- 
+   
 - Área administrativa da SME: checagem e validação de documentos dos fornecedores
  
 - Busca de fornecedores com visualização em mapa interativo
@@ -153,17 +151,11 @@ Em virtude dos entraves do modelo tradicional de fornecimento de uniformes escol
 
 **Documentos utilizados**
 
-- Decretoº 59.199/2020: [http://legislacao.prefeitura.sp.gov.br/leis/decreto-59199-de-31-de-janeiro-de-2020](http://legislacao.prefeitura.sp.gov.br/leis/decreto-59199-de-31-de-janeiro-de-2020)  
-  
-- Edital (publicado no Diário Oficial da Cidade de São Paulo de 06 de maio de 2020 págs. 27 a 41): [https://portaldeuniformes.sme.prefeitura.sp.gov.br/django_media/EDITAL_DE_CREDENCIAMENTO_-_ATUALIZADO_22_04_2020.pdf](https://portaldeuniformes.sme.prefeitura.sp.gov.br/django_media/EDITAL_DE_CREDENCIAMENTO_-_ATUALIZADO_22_04_2020.pdf)  
-  
-- Instruções Normativas nºs 005, 007, 016 e 022/2020: [https://portaldeuniformes.sme.prefeitura.sp.gov.br/django_media/IN._NORMATIVAS_Nº_05_07_16_e_22_RsVZKxe.pdf](https://portaldeuniformes.sme.prefeitura.sp.gov.br/django_media/IN._NORMATIVAS_N%C2%BA_05_07_16_e_22_RsVZKxe.pdf)
-
  - [Edital de credenciamento SME/COSERV/DIAL – Numel Nº 001/2020]
 (https://portaldeuniformes.sme.prefeitura.sp.gov.br/django_media/EDITAL_DE_CREDENCIAMENTO_Uniforme_22.12.20_hE6yhgT.pdf)
-
 - [Instrução Normativa SME nº49/2020]
 (http://legislacao.prefeitura.sp.gov.br/leis/instrucao-normativa-secretaria-municipal-de-educacao-sme-49-de-11-de-dezembro-de-2020)
+- [Lei Municipal nº 17.437/2020](http://legislacao.prefeitura.sp.gov.br/leis/lei-17437-de-12-de-agosto-de-2020)
 
 **Oficina sobre Ateste:**
  
