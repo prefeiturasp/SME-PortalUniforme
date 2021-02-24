@@ -154,9 +154,8 @@ Em virtude dos entraves do modelo tradicional de fornecimento de uniformes escol
 
  - [Edital de credenciamento SME/COSERV/DIAL – Numel Nº 001/2020]
 (https://portaldeuniformes.sme.prefeitura.sp.gov.br/django_media/EDITAL_DE_CREDENCIAMENTO_Uniforme_22.12.20_hE6yhgT.pdf)
-- [Instrução Normativa SME nº49/2020]
-(http://legislacao.prefeitura.sp.gov.br/leis/instrucao-normativa-secretaria-municipal-de-educacao-sme-49-de-11-de-dezembro-de-2020)
-- [Lei Municipal nº 17.437/2020](http://legislacao.prefeitura.sp.gov.br/leis/lei-17437-de-12-de-agosto-de-2020)
+- [INSTRUÇÃO NORMATIVA SME Nº 4, DE 18 DE FEVEREIRO DE 2021]
+(https://portaldeuniformes.sme.prefeitura.sp.gov.br/django_media/Instrução_Normativa_nº_4_de_18.02.2021_altera_a_IN_49_de_11.12.2020.pdf)
 
 **Oficina sobre Ateste:**
  
