@@ -156,6 +156,7 @@ Em virtude dos entraves do modelo tradicional de fornecimento de uniformes escol
 (https://portaldeuniformes.sme.prefeitura.sp.gov.br/django_media/EDITAL_DE_CREDENCIAMENTO_Uniforme_22.12.20_hE6yhgT.pdf)
 - [INSTRUÇÃO NORMATIVA SME Nº 4, DE 18 DE FEVEREIRO DE 2021]
 (https://portaldeuniformes.sme.prefeitura.sp.gov.br/django_media/Instrução_Normativa_nº_4_de_18.02.2021_altera_a_IN_49_de_11.12.2020.pdf)
+- [LEI MUNICIPAL Nº 17.437/2020](http://legislacao.prefeitura.sp.gov.br/leis/lei-17437-de-12-de-agosto-de-2020)
 
 **Oficina sobre Ateste:**
  
