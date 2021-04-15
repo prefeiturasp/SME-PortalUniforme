@@ -88,15 +88,11 @@ O Portal do Uniforme é um portal no qual a família pode se informar sobre a co
  
 ## Funcionalidades
   
-- Formulário de cadastro do fornecedor de uniforme escolar
-   
-- Área administrativa da SME: checagem e validação de documentos dos fornecedores
- 
-- Busca de fornecedores com visualização em mapa interativo
- 
-## Roadmap
- 
-- Integração com a API da empresa de pagamento
+**Cadastro do Fornecedor**: permite que um fornecedor realize seu cadastro – informando da empresa, lojas físicas, kits que serão oferecidos, tabela de preço dos materiais fornecidos, upload de documentos exigidos no edital e foto das fachadas das lojas
+
+**Busca de Lojas Credenciadas**: permite que estudantes e famílias possam realizar a busca de lojas credenciadas à partir de um endereço ou utilizando demais filtros. Também é possível realizar avaliação sobre as suas experiências perante o processo da compra e do produto
+
+**Portal do Administrador**: permite que os administradores do sistema tenham acesso aos dados informados pelos fornecedores que realizaram o cadastro e inserirem as certidões necessárias para o cadastro. Desta maneira, é possível reduzir a complexidade de cadastramento do fornecedor e garantir que o administrador possa validar documentações e demais dados e caso aprovado, alterar o status do fornecedor para que o mesmo seja considerado como um fornecedor credenciado. Além disso, há a possibilidade de análise dos acessos no portal via Google Analytics
 
 # Sobre o Time:
 
