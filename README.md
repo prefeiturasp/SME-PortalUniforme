@@ -60,6 +60,17 @@ O nosso produto **possibilita que as famílias escolham os itens do kit uniforme
 ## Objetivos de Negócio
  
 O Portal do Uniforme é um portal no qual a família pode se informar sobre a compra de novos uniformes escolares e pesquisar quais lojas estão credenciadas para o fornecimento. Nele, também há a possibilidade dos fornecedores podem se cadastrar para vender uniformes escolares e a Secretatia Municipal de Educação (SME) realiza a gestão desse processo.
+
+Atualmente, após a etapa inicial de cadastro que aconteceu ao longo de 2020-2021, o portal permite apenas a consulta do cadastro do usuário, com as seguintes opções:
+
+**A) Cadastro não encontrado. Procure sua Unidade Escolar**
+Significado: O CPF não se encontra registrado em nenhum cadastro EOL. Nesse caso existem duas possibilidades: 1) o campo CPF está em branco no cadastro EOL da criança, 2) o cadastro EOL da criança está em nome de outro responsável.
+
+**B) Seu cadastro está completo**
+Baixe o aplicativo Kit Escolar DUEPAY no celular ou tablet e faça sua compra.
+Se você registrou o CPF de responsável no cadastro da criança após o dia 13/04/2022, aguarde a liberação do próximo lote. 
+
+(Essa data é alterada a cada lote. Os lotes são liberados de acordo com novas matrículas ou regularização cadastral)
  
 **O que é/Faz**
  
@@ -109,22 +120,22 @@ O Portal do Uniforme é um portal no qual a família pode se informar sobre a co
 <tbody>
 <tr>
 <td>Product Owner</td>
-<td>@Natalia-Goes e @RenataGarrido</td>
-<td>@thaisbrianezi</td>
+<td>@Natalia-Goes</td>
+<td>@RenataGarrido</td>
 </tr>
 <tr>
 <td>Agente de Governança</td>
+<td>Gabriela Rowlands</td>
 <td>Fernando Gonsales</td>
-<td>Victor Silva</td>
 </tr>
 <tr>
 <td>Gerente de Projeto</td>
-<td>Andrea PAiva</td>
+<td>Aline Freitas</td>
 <td>-</td>
 </tr>
 <tr>
 <td>Scrum Master</td>
-<td>Augusto Silva</td>
+<td></td>
 <td>-</td>
 </tr>
 <tr>
@@ -134,7 +145,7 @@ O Portal do Uniforme é um portal no qual a família pode se informar sobre a co
 </tr>
 <tr>
 <td>Analista Programador</td>
-<td@kelwys</td>
+<td>@kelwys</td>
 <td>-</td>
 </tr>
 </tbody>
@@ -148,11 +159,10 @@ Em virtude dos entraves do modelo tradicional de fornecimento de uniformes escol
 
 **Documentos utilizados**
 
- - [Edital de credenciamento SME/COSERV/DIAL – Numel Nº 001/2020]
-(https://portaldeuniformes.sme.prefeitura.sp.gov.br/django_media/EDITAL_DE_CREDENCIAMENTO_Uniforme_22.12.20_hE6yhgT.pdf)
-- [INSTRUÇÃO NORMATIVA SME Nº 4, DE 18 DE FEVEREIRO DE 2021]
-(https://portaldeuniformes.sme.prefeitura.sp.gov.br/django_media/Instrução_Normativa_nº_4_de_18.02.2021_altera_a_IN_49_de_11.12.2020.pdf)
-- [LEI MUNICIPAL Nº 17.437/2020](http://legislacao.prefeitura.sp.gov.br/leis/lei-17437-de-12-de-agosto-de-2020)
+ - [Edital de credenciamento SME/COSERV/DIAL – Numel Nº 001/2020, págs. 41 a 58](https://portaldeuniformes.sme.prefeitura.sp.gov.br/django_media/EDITAL_DE_CREDENCIAMENTO_SME_COSERV_DIAL_Numel_N%C2%BA_001-2020_REF.2022.pdf)
+- [INSTRUÇÃO NORMATIVA SECRETARIA MUNICIPAL DE EDUCAÇÃO SME Nº 49 DE 11 DE DEZEMBRO DE 2020](https://legislacao.prefeitura.sp.gov.br/leis/instrucao-normativa-secretaria-municipal-de-educacao-sme-49-de-11-de-dezembro-de-2020)
+- [INSTRUÇÃO NORMATIVA SECRETARIA MUNICIPAL DE EDUCAÇÃO SME Nº 56 DE 29 DE DEZEMBRO DE 2021](https://legislacao.prefeitura.sp.gov.br/leis/instrucao-normativa-secretaria-municipal-de-educacao-sme-56-de-29-de-dezembro-de-2021)
+- [INSTRUÇÃO NORMATIVA SECRETARIA MUNICIPAL DE EDUCAÇÃO SME Nº 3 DE 19 DE JANEIRO DE 2022](https://legislacao.prefeitura.sp.gov.br/leis/instrucao-normativa-3-de-19-de-janeiro-de-2022)
 
 **Oficina sobre Ateste:**
  
@@ -168,27 +178,16 @@ Testes técnicos foram realizados e melhorias foram identificadas ao longo dos u
  
 **Desenvolvimento:**
  
-[https://dev-pedido-uniforme.sme.prefeitura.sp.gov.br/](https://dev-pedido-uniforme.sme.prefeitura.sp.gov.br/)
- 
-[https://dev-pedido-uniforme.sme.prefeitura.sp.gov.br/adm-escola](https://dev-pedido-uniforme.sme.prefeitura.sp.gov.br/adm-escola)
- 
-[https://dev-portaldeuniformes.sme.prefeitura.sp.gov.br/](https://dev-portaldeuniformes.sme.prefeitura.sp.gov.br/)
+[Primeira versão](https://dev-portaldeuniformes.sme.prefeitura.sp.gov.br/)
  
 **Homologação:**
  
-[https://hom-pedido-uniforme.sme.prefeitura.sp.gov.br/](https://hom-pedido-uniforme.sme.prefeitura.sp.gov.br/)
- 
-[https://hom-pedido-uniforme.sme.prefeitura.sp.gov.br/adm-escola](https://hom-pedido-uniforme.sme.prefeitura.sp.gov.br/adm-escola)
- 
-[https://hom-portaldeuniformes.sme.prefeitura.sp.gov.br/](https://hom-portaldeuniformes.sme.prefeitura.sp.gov.br/)
+[Primeira versão](https://hom-portaldeuniformes.sme.prefeitura.sp.gov.br/)
  
 **Produção:**
  
-[https://pedido-uniforme.sme.prefeitura.sp.gov.br/](https://pedido-uniforme.sme.prefeitura.sp.gov.br/)
- 
-[https://pedido-uniforme.sme.prefeitura.sp.gov.br/adm-escola](https://pedido-uniforme.sme.prefeitura.sp.gov.br/adm-escola)
- 
-[https://portaldeuniformes.sme.prefeitura.sp.gov.br/](https://portaldeuniformes.sme.prefeitura.sp.gov.br/)
+[Primeira versão](https://portaldeuniformes.sme.prefeitura.sp.gov.br/)
+[Versão atual](https://consulteseucadastro.sme.prefeitura.sp.gov.br/)
  
 # Comunicação:
   
